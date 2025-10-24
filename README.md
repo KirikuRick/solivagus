@@ -10,7 +10,7 @@ This project features a comprehensive Discord bot with robust moderation and tic
 
 1.  **Clone the Repository:**
     ```bash
-    git clone [your-repo-name]
+    git clone solivagus
     ```
 
 2.  **Install Dependencies:**
@@ -55,8 +55,8 @@ This system is fully **SQL-backed**, providing persistent records for all modera
 
 | Feature | Commands | Description |
 | :--- | :--- | :--- |
-| **Warning System** | `/moderation warn` <br> `/moderation warnlist` <br> `/moderation delwarn` <br> `/moderation warnsummary` <br> `/moderation setwarnconfig` | Manage user warnings, view history, and configure warning limits. |
-| **Temporary Roles** | `/moderation temprole_add` <br> `/moderation temprole_remove` <br> `/moderation temprole_list` | Assign roles for a limited duration. |
+| **Warning System** | `/warn` <br> `/warnlist` <br> `/delwarn` <br> `/warnsummary` <br> `/setwarnconfig` | Manage user warnings, view history, and configure warning limits. |
+| **Temporary Roles** | `/temprole_add` <br> `/temprole_remove` <br> `/temprole_list` | Assign roles for a limited duration. |
 
 ### 🎫 Ticket System Configuration (Admin)
 
